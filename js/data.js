@@ -83,7 +83,7 @@ export const data = [
    },
    {
       title: 'Universidade Brasileira Livre',
-      description: 'É uma comunidade sem fins lucrativos de apoio de estudantes de todos os níveis que ajudam uns aos outros e compartilham suas experiências e conhecimentos em torno de diferentes currículos de código aberto.',
+      description: 'É uma comunidade sem fins lucrativos de apoio de estudantes de todos os níveis que ajudam uns aos outros e compartilham suas experiências',
       image: 'ubl.png',
       alt: 'logo do programa',
       tag: 'frontend, backend, curso, cursos',
