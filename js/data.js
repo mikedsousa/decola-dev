@@ -73,4 +73,20 @@ export const data = [
       tag: 'frontend, backend, curso, cursos',
       url: 'https://fullstackopen.com/ptbr/'
    },
+   {
+      title: 'TIC em Trilhas',
+      description: 'Capacitações gratuitas elaboradas por profissionais de instituições renomadas e que irão transformar a sua carreira.',
+      image: 'tic.png',
+      alt: 'logo do programa',
+      tag: 'frontend, backend, curso, cursos',
+      url: 'https://ticemtrilhas.org.br/'
+   },
+   {
+      title: 'Universidade Brasileira Livre',
+      description: 'É uma comunidade sem fins lucrativos de apoio de estudantes de todos os níveis que ajudam uns aos outros e compartilham suas experiências e conhecimentos em torno de diferentes currículos de código aberto.',
+      image: 'ubl.png',
+      alt: 'logo do programa',
+      tag: 'frontend, backend, curso, cursos',
+      url: 'https://github.com/Universidade-Livre'
+   },
 ]
