@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgb(178, 226, 236) 15%, rgb(212, 238, 245) 47%) no-repeat;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+}
+header h1 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #111111;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+header img {
+  vertical-align: baseline;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 4rem 0 2rem;
+}
+.search h2 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #111111;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  max-width: 600px;
+}
+.search input {
+  outline: none;
+  height: 20px;
+  width: 80vw;
+  max-width: 450px;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.search input::-moz-placeholder {
+  text-align: center;
+}
+.search input::placeholder {
+  text-align: center;
+}
+.search button {
+  background-color: #477A91;
+  font-family: "Source Sans 3", sans-serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  width: 120px;
+  height: 35px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+footer a {
+  font-family: "Source Sans 3", sans-serif;
+  color: #477A91;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.cards {
+  overflow-y: scroll;
+  max-height: 500px;
+  padding-right: 20px;
+  --sb-track-color: #232E33;
+  --sb-thumb-color: #6BAF8D;
+  --sb-size: 14px;
+}
+.cards .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: initial;
+  gap: 1rem;
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-bottom: 1rem;
+  background-color: #FFFFFF;
+}
+.cards .card img {
+  width: 200px;
+  height: 130px;
+  border-radius: 5px;
+}
+.cards .card .info {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.cards .card h3 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #181818;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.cards .card p {
+  font-family: "Source Sans 3", sans-serif;
+  color: #181818;
+  font-size: 1.1rem;
+  line-height: 24px;
+}
+.cards .card a {
+  font-family: "Source Sans 3", sans-serif;
+  color: #181818;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.cards::-webkit-scrollbar {
+  width: 14px;
+}
+
+.cards::-webkit-scrollbar-track {
+  background: #A9CDD4;
+  border-radius: 3px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: #477A91;
+  border-radius: 3px;
+}/*# sourceMappingURL=main.css.map */

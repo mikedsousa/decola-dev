@@ -1,0 +1,12 @@
+@mixin flex-dir-alg-jus($dr, $alg, $jus) {
+  display: flex;
+  flex-direction: $dr;
+  align-items: $alg;
+  justify-content: $jus;
+}
+
+@mixin fs-ff-cl($fs: 1rem, $cl: #111111, $ff: "Source Sans 3") {
+  font-family: $ff, sans-serif;
+  color: $cl;
+  font-size: $fs;
+}
