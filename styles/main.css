@@ -121,8 +121,9 @@ header img {
   font-size: 1rem;
   border: 1px solid #FFFFFF;
   border-radius: 15px;
-  width: 120px;
+  width: 150px;
   height: 35px;
+  cursor: pointer;
 }
 
 footer {
