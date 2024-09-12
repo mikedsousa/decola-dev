@@ -89,4 +89,20 @@ export const data = [
       tag: 'frontend, backend, curso, cursos',
       url: 'https://github.com/Universidade-Livre'
    },
+   {
+      title: 'CodeCrafters',
+      description: 'Torne-se um melhor engenheiro de software. Trabalhe em projetos que  desafiem você. Torne-se um engenheiro melhor através da prática deliberada.',
+      image: 'codecraftersio.png',
+      alt: 'logo do programa',
+      tag: 'frontend, backend, curso, cursos, projetos, avançado',
+      url: 'https://codecrafters.io/'
+   },
+   {
+      title: 'Exercism',
+      description: 'Aprenda mais de 65 linguagens de programação através de prática e mentoria. Possui deviersas trilhas de aprendizado para cada linguagem.',
+      image: 'exercism.png',
+      alt: 'logo do programa',
+      tag: 'linguagens, pratica, mentoria, curos, cursos',
+      url: 'https://exercism.org/'
+   }
 ]
